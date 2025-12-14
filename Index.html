@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PersonaLink - Green Glass</title>
+    
+    <!-- Google Fonts: Outfit (Modern Sans Serif) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Elemen Background (Untuk efek gradasi) -->
+    <div class="bg-gradient"></div>
+
+    <div class="main-wrapper">
+        <!-- Header -->
+        <header class="header glass-card-sm">
+            <div class="logo">PersonaLink</div>
+            <button id="theme-toggle" class="toggle-btn" aria-label="Ganti Tema">
+                <i class="fas fa-adjust"></i>
+            </button>
+        </header>
+
+        <!-- Profile Card Utama -->
+        <section class="glass-card profile-card">
+            <div class="profile-top">
+                <!-- URL Gambar diubah warnanya menjadi hijau (2ecc71) -->
+                <img src="https://placehold.co/150x150/2ecc71/white?text=Foto" alt="Foto Profil" class="avatar">
+            </div>
+            <div class="profile-body">
+                <h1>[Nama Anda]</h1>
+                <p class="role">Digital Creator & Developer</p>
+                <div class="location-pill">
+                    <i class="fas fa-map-marker-alt"></i> Bali, Indonesia
+                </div>
+                <p class="bio">
+                    Menciptakan pengalaman digital yang estetis dan fungsional. 
+                    Lorem ipsum dolor sit amet.
+                </p>
+                
+                <!-- Social Media (Bulat Floating) -->
+                <div class="social-list">
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+
+                <!-- CTA Button (Gradient) -->
+                <a href="#portofolio" class="btn-gradient">Lihat Portofolio</a>
+            </div>
+        </section>
+
+        <!-- Section Layanan (Grid Kaca) -->
+        <div class="section-title">Layanan</div>
+        <div class="services-grid">
+            <div class="glass-card service-item">
+                <div class="icon-glow"><i class="fas fa-laptop-code"></i></div>
+                <h3>Web Dev</h3>
+                <p>Website Custom</p>
+            </div>
+            <div class="glass-card service-item">
+                <div class="icon-glow"><i class="fas fa-users"></i></div>
+                <h3>Mentoring</h3>
+                <p>Kelas Freelance</p>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p>&copy; 2024 PersonaLink Glass.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
